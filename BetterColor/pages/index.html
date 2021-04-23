@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <title>主页</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="../img/logo.png" alt="logo">
+            <a href="index.html">Better Color</a>
+        </div>
+
+        <div class="nav-mid">
+            <input class="search-input" type="text" placeholder="搜索你想要的颜色">
+        </div>
+
+        <div class="nav-right">
+            <a href="color-create.html" class="nav-link">调色盘</a>
+            <div class="user-name">
+                <img src="../img/user.jpg" alt="user" class="user-logo">
+                <a href="user.html">sunshine</a>
+            </div>
+            <div class="v-line"></div>
+            <a href="login.html"><button class="logout-btn" href="login.html">退出登录</button></a>
+        </div>
+    </nav>
+    <div class="index-bg">
+        <img src="../img/index_bg.jpg" alt="index background">
+        <div class="img-mask"></div>
+    </div>
+    <div class="search-box" style="margin-top: -25px;">
+        <div class="nav-logo">
+            <img src="../img/logo.png" alt="logo">
+        </div>
+        <div class="search-item">
+            <img src="../img/search.png" alt="search" class="search-icon">
+            <input type="text" name="search-input" placeholder="搜索你想要的颜色">
+            <a href="#" class="search-link">搜索</a>
+        </div>
+    </div>
+
+    <div class="color-row">
+        <div class="color-item" onclick="window.location.href='color-info.html'">
+            <div class="color-title">
+                001 温暖的火焰
+            </div>
+            <div class="color-body color-001">
+            </div>
+            <div class="color-code">
+                #ff9a9e → #fad0c4
+            </div>
+        </div>
+        <div class="color-item" onclick="window.location.href='color-info.html'">
+            <div class="color-title">
+                002 褪色的夕阳
+            </div>
+            <div class="color-body color-002">
+            </div>
+            <div class="color-code">
+                #a18cd1 → #fbc2eb
+            </div>
+        </div>
+        <div class="color-item">
+            <div class="color-title">
+                003 冬季的哈尔滨湖
+            </div>
+            <div class="color-body color-003">
+            </div>
+            <div class="color-code">
+                #a1c4fd → #c2e9fb
+            </div>
+        </div>
+        <div class="color-item">
+            <div class="color-title">
+                004 勃勃生机
+            </div>
+            <div class="color-body color-004">
+
+            </div>
+            <div class="color-code">
+                #9be15d → #00e3ae
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

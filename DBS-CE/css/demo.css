@@ -1,0 +1,193 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-top: 69px;
+    padding-bottom: 123px;
+    background: url(../img/bg2.jpg);
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #252930;
+    font-weight: 600;
+}
+
+.btn {
+    font-weight: 600;
+    padding: 0.6rem 1.25rem;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border: none
+}
+
+.btn:hover {
+    background: #28b7fb;
+    color: #e5eaec;
+}
+
+.btn:focus,
+.btn.focus {
+    box-shadow: none !important
+}
+
+.btn-primary {
+    background: #facc4f;
+}
+
+.btn-secondary {
+    background: #5d6778;
+    color: #fff
+}
+
+.btn-light {
+    background: #ffffff;
+    color: #28b7fb
+}
+
+.btn-light:hover {
+    background: #ffffff;
+    color: #28b7fb
+}
+
+.border-radius-0 {
+    border-radius: 0
+}
+
+.font-style-normal {
+    font-style: normal !important
+}
+
+.single-col-max {
+    max-width: 800px
+}
+
+
+/** search form css */
+
+.search-form {
+    position: relative;
+    width: 100%;
+}
+
+.search-form .search-input {
+    font-size: 0.875rem;
+    border-radius: 1.5rem;
+    padding-right: 3rem;
+    padding-left: 1.5rem;
+    border-color: #e7e9ed;
+}
+
+.search-form .search-input:focus {
+    border-color: #e7e9ed;
+}
+
+.search-form .search-btn {
+    color: #828d9f;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0.15rem;
+    margin-right: 0
+}
+
+.form-control {
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+    height: 2.75rem;
+    border-color: #ffffff
+}
+
+.form-control:focus {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+
+/** header css*/
+
+.header {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+    background: #fff
+}
+
+.branding {
+    min-height: 70px;
+}
+
+.logo-wrapper {
+    position: absolute;
+    left: 15px;
+    top: 0.5rem
+}
+
+.logo-wrapper .site-logo {
+    display: inline-block
+}
+
+.site-logo .logo-text {
+    color: #252930;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.site-logo .text-alt {
+    font-weight: 300;
+}
+
+.site-logo .navbar-brand {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 0;
+}
+
+.top-icon li {
+    font-size: 1.125rem;
+    background: #ffffff;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 2px
+}
+
+.top-icon li a:hover {
+    color: #28b7fb;
+}
+
+.top-icon li:not(:last-child) {
+    margin-right: 0.875rem;
+}
+
+.header .search-form {
+    width: 20%;
+}
+
+.header .form-control {
+    height: 40px;
+}
+
+.header .search-form .search-btn {
+    top: 0;
+    color: #28b7fb;
+}
+
+
+/** social list */
+
+.social-list li {
+    font-size: 1.125rem;
+    background: #ffffff;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 2px;
+}

@@ -1,0 +1,36 @@
+/* navbar css */
+
+.navbar {
+    margin: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 0 10px #888888;
+}
+
+.navbar .logo {
+    margin-left: 10px;
+}
+
+.search-box {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 1.5rem;
+    width: 300px;
+}
+
+.search-box .search-input {
+    border-radius: 1.5rem;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.01);
+}
+
+.search-box .fa-search {
+    color: rgb(180, 172, 172)
+}
+
+.search-btn {
+    color: rgba(160, 153, 153, 0)
+}
+
+.search-box .search-input:focus {
+    box-shadow: 1px red;
+}

@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    width: calc(100vw);
+    height: calc(100vh);
+    min-height: 500px;
+    min-width: 1000px;
+    background-color: #f8f8f8;
+}
+
+.login-images{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+    padding-left: 150px;
+}
+
+.login-images > img{
+    transform: rotate(3deg);
+}
+
+.login-images > h1{
+    color: #4c4c4c;
+}
+
+
+.login-images > span{
+    color: #5c5c5c;
+    margin: 15px;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.login-logo{
+    width: 450px;
+}
+
+.login-warrper{
+    width: 50%;
+    padding-left: 150px;
+    display: flex;
+    margin-top: -30px;
+}
+
+.login-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(102, 102, 102, 0.2) 1px 1px 10px;
+}
+
+.login-form>.form-item {
+    margin: 20px 5px;
+}
+
+.form-title {
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 20px;
+    color: #4c4c4c;
+}
+
+.input-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-item>input {
+    padding: 5px;
+    border: rgba(102, 102, 102, 0.1) 1px solid;
+    height: 40px;
+    width: 300px;
+    padding-left: 15px;
+}
+
+.input-item>input:first-child {
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+}
+
+.input-item>input:last-child {
+    border-radius: 0px 0px 5px 5px;
+}
+
+.input-item>input:first-child:focus {
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+}
+
+.input-item>input:last-child:focus {
+    border-radius: 0px 0px 5px 5px;
+}
+
+.check-item {
+    display: flex;
+    font-size: 12px;
+    height: 15px;
+    line-height: 15px;
+    color: #5c5c5c;
+}
+
+input[type='checkbox'] {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.login-btn {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #09aaff;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #4490f7;
+    cursor: pointer;
+}
+
+.form-link {
+    font-size: small;
+}
+
+.forget-pwd {
+    color: rgba(102, 102, 102, 1);
+}
+
+.forget-pwd:hover {
+    color: rgba(102, 102, 102, 0.7);
+}
+
+.register {
+    color: rgba(9, 170, 255, 1);
+}
+
+.register:hover {
+    color: rgba(9, 170, 255, 0.7);
+    ;
+}
